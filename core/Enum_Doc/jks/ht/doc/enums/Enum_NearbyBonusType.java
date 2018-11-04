@@ -1,0 +1,16 @@
+package jks.ht.doc.enums;
+
+public enum Enum_NearbyBonusType 
+{
+	
+	CYCLE_PRODUCE_RESSOURCE,
+	CYCLE_RESERVE_RESSOURCE,
+	CYCLE_FASTER,
+	CYCLE_NEW_RESSOURCE,
+	CONTINUS_MORE_RESSOURCE,
+	CONTINUS_NEW_RESSOURCE,
+	
+	
+	
+	
+}

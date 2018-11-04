@@ -1,0 +1,37 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.6
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets 
+{
+    main 
+    {
+        java 
+        {
+       		srcDir 'ht_index' 
+            srcDir 'Main'
+			srcDir 'Interface'
+			srcDir 'Spine'
+			srcDir 'ht_view'
+			srcDir 'ht_tutorial'
+			srcDir 'ht_index'
+			srcDir 'GameLogic'
+			srcDir 'Building'
+			srcDir 'Enum_Doc'
+			srcDir 'Exceptions'
+			srcDir 'Testing'
+			srcDir 'Tools'
+			srcDir 'jks_inputs'
+			srcDir 'jks_camera'
+			srcDir 'jks_animation_2D'
+			srcDir 'jks_tools' 
+			srcDir 'SaveFile' 
+			srcDir 'libs' 
+			
+        }
+    }
+}
+
+eclipse.project
+{name = appName + "-core"}
